@@ -131,13 +131,13 @@ class User:
     def display_menu(self):
         return (
             "\nPersonal Finance Tracker\n"
-            "1. Add Transaction\n"
-            "2. View Transactions\n"
-            "3. Update Transaction\n"
-            "4. Delete Transaction\n"
-            "5. Display Summary\n"
-            "6. Save to JSON file\n"
-            "7. Exit"
+            " Add Transaction\n"
+            " View Transactions\n"
+            " Update Transaction\n"
+            " Delete Transaction\n"
+            " Display Summary\n"
+            " Save to JSON file\n"
+            " Exit"
         )
 if __name__ == "__main__":
     user = User()
