@@ -105,7 +105,7 @@ class User:
         self.load_transactions()  # Load transactions at the start
         while True:
 
-            choice = input("Enter your choice: ")
+            choice = input("Enter your choice: from 1 to 7")
 
             if choice == '1':
                 self.add_transaction()
