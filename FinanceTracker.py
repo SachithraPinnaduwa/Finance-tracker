@@ -50,8 +50,7 @@ class User:
             print(transaction)
 
     def update_transaction(self,descriptionupdate,updatewhat,value):
-        # Placeholder for update transaction logic
-        # Remember to use save_transactions() after updating
+    
         description = descriptionupdate
         what = updatewhat.lower()
         for transaction in self.transactions:
@@ -74,9 +73,7 @@ class User:
         self.save_transactions()
 
     def delete_transaction(self,deletewhat):
-        # Placeholder for delete transaction logic
-        # Remember to use save_transactions() after deleting
-
+   
         remove = deletewhat
         found = False
         with open('SampleJSONFile.json', 'r') as file:
@@ -143,4 +140,3 @@ if __name__ == "__main__":
     user = User()
     user.main_menu()
 
-# if you are paid to do this assignment please delete this line of comment
