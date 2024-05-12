@@ -136,7 +136,4 @@ class User:
             " Save to JSON file\n"
             " Exit"
         )
-if __name__ == "__main__":
-    user = User()
-    user.main_menu()
 
